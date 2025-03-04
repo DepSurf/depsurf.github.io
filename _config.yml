@@ -1,0 +1,5 @@
+# https://github.com/jekyll/jekyll-commonmark
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["unsafe", "smart"]
+  extensions: ["table", "autolink"]
