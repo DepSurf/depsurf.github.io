@@ -1,0 +1,190 @@
+# Function: <code>__omap_i2c_init</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+void __omap_i2c_init(struct omap_i2c_dev * omap)
+```
+
+```json
+{
+  "name": "__omap_i2c_init",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336500882856,
+      "name": "__omap_i2c_init",
+      "external": false,
+      "loc": "drivers/i2c/busses/i2c-omap.c:278",
+      "file": "drivers/i2c/busses/i2c-omap.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_runtime_resume",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_probe",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_xfer_msg",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_xfer_msg"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336500882856,
+      "name": "__omap_i2c_init",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 188
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+void __omap_i2c_init(struct omap_i2c_dev * omap)
+```
+
+```json
+{
+  "name": "__omap_i2c_init",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3233399956,
+      "name": "__omap_i2c_init",
+      "external": false,
+      "loc": "drivers/i2c/busses/i2c-omap.c:278",
+      "file": "drivers/i2c/busses/i2c-omap.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_runtime_resume",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_probe",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_xfer_msg",
+        "drivers/i2c/busses/i2c-omap.c:omap_i2c_xfer_msg"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3233399956,
+      "name": "__omap_i2c_init",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 180
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+void __omap_i2c_init(struct omap_i2c_dev * omap)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➕</summary>
+
+```c
+void __omap_i2c_init(struct omap_i2c_dev * omap)
+```
+</details>
+</li>
+</ul>

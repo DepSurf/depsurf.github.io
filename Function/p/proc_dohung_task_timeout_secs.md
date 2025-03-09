@@ -1,0 +1,1045 @@
+# Function: <code>proc_dohung_task_timeout_secs</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580133136,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:197",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580133136,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580167232,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:199",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580167232,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580207696,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:200",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580207696,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580215760,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:209",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580215760,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580267104,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:209",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580267104,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580327424,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:212",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580327424,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580380400,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:219",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580380400,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580433200,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580433200,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580481952,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580481952,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580566864,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:227",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580566864,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580554912,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:227",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580554912,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580558080,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:227",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580558080,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580728032,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:228",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580728032,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580939392,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": false,
+      "loc": "kernel/hung_task.c:231",
+      "file": "kernel/hung_task.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580939392,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 65
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581232768,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": false,
+      "loc": "kernel/hung_task.c:239",
+      "file": "kernel/hung_task.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581232768,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 65
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581327120,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": false,
+      "loc": "kernel/hung_task.c:241",
+      "file": "kernel/hung_task.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581327120,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 65
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581433424,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": false,
+      "loc": "kernel/hung_task.c:241",
+      "file": "kernel/hung_task.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581433424,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 65
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336491757776,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336491757776,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 124
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3225706232,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3225706232,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 96
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055284799168,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055284799168,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 140
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936272079094,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936272079094,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 102
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580450752,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580450752,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580397824,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580397824,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580442000,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580442000,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+int proc_dohung_task_timeout_secs(struct ctl_table * table, int write, void * buffer, size_t * lenp, loff_t * ppos)
+```
+
+```json
+{
+  "name": "proc_dohung_task_timeout_secs",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071580497632,
+      "name": "proc_dohung_task_timeout_secs",
+      "external": true,
+      "loc": "kernel/hung_task.c:221",
+      "file": "kernel/hung_task.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580497632,
+      "name": "proc_dohung_task_timeout_secs",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ✅
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

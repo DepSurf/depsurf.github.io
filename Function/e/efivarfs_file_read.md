@@ -1,0 +1,987 @@
+# Function: <code>efivarfs_file_read</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582126944,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:67",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582126944,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 235
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582345008,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:67",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582345008,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 236
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582436224,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:67",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582436224,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 236
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582519488,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:67",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582519488,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 233
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582671056,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:67",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582671056,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 233
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582864288,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:68",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582864288,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 303
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582972400,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:68",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582972400,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 303
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583153360,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583153360,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583259424,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583259424,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583586720,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583586720,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 282
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583707056,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583707056,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 282
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583731824,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583731824,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 282
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584092800,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584092800,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 282
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584687616,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584687616,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 304
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585374576,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585374576,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 304
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585605072,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585605072,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 340
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585850896,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:66",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585850896,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 340
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336494987600,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336494987600,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 320
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3228402444,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3228402444,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 324
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583228160,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583228160,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583165312,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583165312,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583212192,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583212192,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+
+```json
+{
+  "name": "efivarfs_file_read",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583306080,
+      "name": "efivarfs_file_read",
+      "external": false,
+      "loc": "fs/efivarfs/file.c:65",
+      "file": "fs/efivarfs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583306080,
+      "name": "efivarfs_file_read",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 299
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➖</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➖</summary>
+
+```c
+ssize_t efivarfs_file_read(struct file * file, char * userbuf, size_t count, loff_t * ppos)
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

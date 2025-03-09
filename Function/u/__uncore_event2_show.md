@@ -1,0 +1,945 @@
+# Function: <code>__uncore_event2_show</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578954048,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:268",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578954048,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578950944,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:268",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578950944,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578951744,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:327",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578951744,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578944656,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:327",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578944656,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578946624,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:328",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578946624,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578949072,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:328",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578949072,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578951072,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:328",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578951072,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578957280,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:391",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578957280,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578959712,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:386",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578959712,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578965536,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:422",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578965536,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578966800,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:451",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578966800,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578972096,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:451",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578972096,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578984288,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:470",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578984288,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578999168,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:470",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578999168,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 42
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579021440,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:472",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579021440,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 42
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579021488,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:472",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579021488,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 42
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct device * dev, struct device_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579046416,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:472",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579046416,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 42
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578959712,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:386",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578959712,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578957232,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:386",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578957232,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578959648,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:386",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578959648,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+
+```json
+{
+  "name": "__uncore_event2_show",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071578960224,
+      "name": "__uncore_event2_show",
+      "external": false,
+      "loc": "arch/x86/events/intel/uncore_snbep.c:386",
+      "file": "arch/x86/events/intel/uncore_snbep.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071578960224,
+      "name": "__uncore_event2_show",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 36
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Changed between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ❓</summary>
+<ul>
+<li>
+<b>Param added. </b>
+<code>struct device * dev</code>
+</li>
+<li>
+<b>Param removed. </b>
+<code>struct kobject * kobj</code>
+</li>
+<li>
+<b>Param type changed. </b>
+<code>struct kobj_attribute * attr</code> ➡️ <code>struct device_attribute * attr</code>
+</li>
+</ul>
+</details>
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➖</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➖</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➖</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➖</summary>
+
+```c
+ssize_t __uncore_event2_show(struct kobject * kobj, struct kobj_attribute * attr, char * page)
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

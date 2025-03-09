@@ -1,0 +1,1318 @@
+# Function: <code>call_rcu_sched</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579794192,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:3111",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "kernel/exit.c:release_task",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/pid.c:free_pid",
+        "kernel/sched/core.c:cpu_cgroup_css_free",
+        "kernel/sched/core.c:rq_attach_root",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/cgroup.c:css_release_work_fn",
+        "kernel/cgroup.c:create_css",
+        "kernel/pid_namespace.c:destroy_pid_namespace",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_set_hash",
+        "kernel/trace/ftrace.c:ftrace_regex_release",
+        "kernel/trace/ftrace.c:__unregister_ftrace_function_probe",
+        "kernel/trace/ftrace.c:register_ftrace_function_probe",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/ring_buffer.c:rb_irq_work",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/zswap.c:__zswap_pool_empty",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:get_empty_filp",
+        "fs/file_table.c:__fput",
+        "fs/super.c:destroy_super",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/file.c:expand_files",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_release_context",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/hooks.c:selinux_inode_free_security",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_destroy",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_parms_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_uncharge",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/sched/sch_generic.c:qdisc_destroy",
+        "net/sched/act_api.c:tcf_hash_cleanup",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/route.c:rt_cache_route",
+        "net/ipv4/route.c:rt_set_nexthop",
+        "net/ipv4/inetpeer.c:inetpeer_invalidate_tree",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/udp_offload.c:udp_del_offload",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ip_mroute_setsockopt",
+        "net/ipv4/ipmr.c:ip_mroute_setsockopt",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv6/addrlabel.c:ip6addrlbl_net_exit",
+        "net/ipv6/addrlabel.c:ip6addrlbl_add",
+        "net/ipv6/addrlabel.c:ip6addrlbl_newdel",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579794192,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579819296,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:3189",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "kernel/exit.c:release_task",
+        "kernel/exit.c:release_task",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/pid.c:free_pid",
+        "kernel/sched/core.c:sched_destroy_group",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:rq_attach_root",
+        "kernel/irq/irqdesc.c:free_desc",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/cgroup.c:css_release_work_fn",
+        "kernel/cgroup.c:cgroup_apply_control_enable",
+        "kernel/pid_namespace.c:destroy_pid_namespace",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_regex_release",
+        "kernel/trace/ftrace.c:ftrace_set_hash",
+        "kernel/trace/ftrace.c:__unregister_ftrace_function_probe",
+        "kernel/trace/ftrace.c:register_ftrace_function_probe",
+        "kernel/bpf/arraymap.c:perf_event_fd_array_put_ptr",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:__fput",
+        "fs/file_table.c:get_empty_filp",
+        "fs/super.c:destroy_super",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/file.c:expand_files",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_new_blocks",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/squashfs/super.c:squashfs_destroy_inode",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/selinux/hooks.c:selinux_inode_free_security",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/idr.c:idr_destroy",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/radix-tree.c:__radix_tree_delete_node",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/sock.c:sk_destruct",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:neigh_parms_release",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_uncharge",
+        "net/core/sock_reuseport.c:reuseport_detach_sock",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/sched/sch_generic.c:qdisc_destroy",
+        "net/sched/act_api.c:tcf_hash_cleanup",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/route.c:rt_cache_route",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/inetpeer.c:inetpeer_invalidate_tree",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_newdel",
+        "net/ipv6/addrlabel.c:ip6addrlbl_net_exit",
+        "net/ipv6/addrlabel.c:ip6addrlbl_add",
+        "net/ipv6/calipso.c:calipso_doi_remove",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579819296,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579847824,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:3187",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "kernel/exit.c:release_task",
+        "kernel/exit.c:release_task",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/pid.c:free_pid",
+        "kernel/sched/core.c:sched_destroy_group",
+        "kernel/sched/core.c:cpu_attach_domain",
+        "kernel/sched/core.c:rq_attach_root",
+        "kernel/irq/irqdesc.c:free_desc",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/cgroup.c:css_release_work_fn",
+        "kernel/cgroup.c:cgroup_apply_control_enable",
+        "kernel/pid_namespace.c:destroy_pid_namespace",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_regex_release",
+        "kernel/trace/ftrace.c:ftrace_set_hash",
+        "kernel/trace/ftrace.c:__unregister_ftrace_function_probe",
+        "kernel/trace/ftrace.c:register_ftrace_function_probe",
+        "kernel/bpf/arraymap.c:perf_event_fd_array_put_ptr",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:__fput",
+        "fs/file_table.c:get_empty_filp",
+        "fs/super.c:destroy_super",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/file.c:expand_files",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_new_blocks",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/squashfs/super.c:squashfs_destroy_inode",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/selinux/hooks.c:selinux_inode_free_security",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:__blk_put_request",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/idr.c:idr_destroy",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/idr.c:idr_remove",
+        "lib/radix-tree.c:radix_tree_free_nodes",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/percpu-refcount.c:__percpu_ref_switch_mode",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/sock.c:sk_destruct",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:neigh_parms_release",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_uncharge",
+        "net/core/sock_reuseport.c:reuseport_detach_sock",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/sched/sch_generic.c:qdisc_destroy",
+        "net/sched/act_api.c:tcf_hash_cleanup",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/route.c:rt_cache_route",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/route.c:fnhe_flush_routes",
+        "net/ipv4/inetpeer.c:inetpeer_invalidate_tree",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_newdel",
+        "net/ipv6/addrlabel.c:ip6addrlbl_net_exit",
+        "net/ipv6/addrlabel.c:ip6addrlbl_add",
+        "net/ipv6/calipso.c:calipso_doi_remove",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579847824,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579851216,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:3195",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "kernel/exit.c:release_task",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/pid.c:free_pid",
+        "kernel/sched/core.c:sched_destroy_group",
+        "kernel/sched/topology.c:cpu_attach_domain",
+        "kernel/sched/topology.c:rq_attach_root",
+        "kernel/irq/irqdesc.c:free_desc",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/cgroup/cgroup.c:css_release_work_fn",
+        "kernel/cgroup/cgroup.c:cgroup_apply_control_enable",
+        "kernel/pid_namespace.c:put_pid_ns",
+        "kernel/audit.c:audit_receive_msg",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_hash_move_and_update_ops",
+        "kernel/bpf/arraymap.c:perf_event_fd_array_put_ptr",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/slab_common.c:slab_deactivate_memcg_cache_rcu_sched",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:__fput",
+        "fs/file_table.c:get_empty_filp",
+        "fs/super.c:destroy_super",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/dcache.c:dentry_free",
+        "fs/dcache.c:dentry_free",
+        "fs/file.c:expand_files",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_new_blocks",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/squashfs/super.c:squashfs_destroy_inode",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/msg.c:newque",
+        "ipc/sem.c:newary",
+        "ipc/shm.c:newseg",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/user_defined.c:user_revoke",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/security.c:security_inode_free",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:__blk_put_request",
+        "block/blk-core.c:get_request",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:__blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/blk-stat.c:blk_stat_free_callback",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/percpu-refcount.c:__percpu_ref_switch_mode",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/dax/super.c:dax_destroy_inode",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/sock.c:sk_destruct",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_uncharge",
+        "net/core/sock_reuseport.c:reuseport_detach_sock",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/sched/sch_generic.c:qdisc_destroy",
+        "net/sched/act_api.c:tcf_hash_cleanup",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/inetpeer.c:inetpeer_invalidate_tree",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_get",
+        "net/ipv6/addrlabel.c:ip6addrlbl_newdel",
+        "net/ipv6/addrlabel.c:ip6addrlbl_net_exit",
+        "net/ipv6/addrlabel.c:ip6addrlbl_add",
+        "net/ipv6/ip6_fib.c:fib6_repair_tree",
+        "net/ipv6/calipso.c:calipso_doi_remove",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove",
+        "lib/radix-tree.c:radix_tree_free_nodes",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579851216,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579891664,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:3177",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "kernel/exit.c:release_task",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/pid.c:free_pid",
+        "kernel/cred.c:__put_cred",
+        "kernel/sched/core.c:sched_destroy_group",
+        "kernel/sched/topology.c:cpu_attach_domain",
+        "kernel/sched/topology.c:sched_put_rd",
+        "kernel/sched/topology.c:rq_attach_root",
+        "kernel/irq/irqdesc.c:free_desc",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/cgroup/cgroup.c:css_release_work_fn",
+        "kernel/cgroup/cgroup.c:cgroup_apply_control_enable",
+        "kernel/pid_namespace.c:destroy_pid_namespace",
+        "kernel/audit.c:audit_receive_msg",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_release_mod",
+        "kernel/trace/ftrace.c:ftrace_hash_move_and_update_ops",
+        "kernel/bpf/arraymap.c:perf_event_fd_array_put_ptr",
+        "kernel/bpf/devmap.c:dev_map_notification",
+        "kernel/bpf/devmap.c:dev_map_update_elem",
+        "kernel/bpf/devmap.c:dev_map_delete_elem",
+        "kernel/bpf/cpumap.c:__cpu_map_entry_replace",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/slab_common.c:slab_deactivate_memcg_cache_rcu_sched",
+        "mm/slab_common.c:memcg_update_all_caches",
+        "mm/memory.c:tlb_remove_table",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:__fput",
+        "fs/file_table.c:get_empty_filp",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/dcache.c:dentry_free",
+        "fs/dcache.c:dentry_free",
+        "fs/file.c:expand_files",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/aio.c:free_ioctx_reqs",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_release_context",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/squashfs/super.c:squashfs_destroy_inode",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/msg.c:newque",
+        "ipc/sem.c:newary",
+        "ipc/shm.c:newseg",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/user_defined.c:user_revoke",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/security.c:security_inode_free",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:__blk_put_request",
+        "block/blk-core.c:get_request",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:__blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/blk-mq.c:blk_mq_free_request",
+        "block/blk-stat.c:blk_stat_free_callback",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/percpu-refcount.c:__percpu_ref_switch_mode",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "lib/assoc_array.c:assoc_array_apply_edit",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/dax/super.c:dax_destroy_inode",
+        "drivers/scsi/scsi_error.c:scsi_eh_scmd_add",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/sock.c:sk_destruct",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_release",
+        "net/core/sock_reuseport.c:reuseport_detach_sock",
+        "net/core/sock_reuseport.c:reuseport_add_sock",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/inetpeer.c:inet_putpeer",
+        "net/ipv4/inetpeer.c:inet_getpeer",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_ctx_destroy",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_destroy_cipher",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv6/calipso.c:calipso_doi_remove",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove",
+        "lib/radix-tree.c:radix_tree_free_nodes",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579891664,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579920128,
+      "name": "call_rcu_sched",
+      "external": true,
+      "loc": "kernel/rcu/tree.c:2983",
+      "file": "kernel/rcu/tree.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/mm/kmmio.c:unregister_kmmio_probe",
+        "arch/x86/mm/kmmio.c:remove_kmmio_fault_pages",
+        "kernel/workqueue.c:destroy_workqueue",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:pwq_unbound_release_workfn",
+        "kernel/workqueue.c:put_unbound_pool",
+        "kernel/workqueue.c:queue_rcu_work",
+        "kernel/pid.c:free_pid",
+        "kernel/cred.c:__put_cred",
+        "kernel/sched/core.c:sched_destroy_group",
+        "kernel/sched/topology.c:cpu_attach_domain",
+        "kernel/sched/topology.c:sched_put_rd",
+        "kernel/sched/topology.c:rq_attach_root",
+        "kernel/irq/irqdesc.c:free_desc",
+        "kernel/time/posix-timers.c:release_posix_timer",
+        "kernel/module.c:do_init_module",
+        "kernel/pid_namespace.c:destroy_pid_namespace",
+        "kernel/audit.c:audit_receive_msg",
+        "kernel/auditfilter.c:audit_update_lsm_rules",
+        "kernel/auditfilter.c:audit_del_rule",
+        "kernel/audit_watch.c:audit_watch_handle_event",
+        "kernel/audit_watch.c:audit_update_watch",
+        "kernel/audit_tree.c:kill_rules",
+        "kernel/audit_tree.c:audit_tree_destroy_watch",
+        "kernel/tracepoint.c:tracepoint_probe_unregister",
+        "kernel/tracepoint.c:tracepoint_probe_register_prio",
+        "kernel/trace/ftrace.c:ftrace_release_mod",
+        "kernel/trace/ftrace.c:ftrace_hash_move_and_update_ops",
+        "kernel/bpf/arraymap.c:perf_event_fd_array_put_ptr",
+        "kernel/bpf/devmap.c:dev_map_notification",
+        "kernel/bpf/devmap.c:dev_map_update_elem",
+        "kernel/bpf/devmap.c:dev_map_delete_elem",
+        "kernel/bpf/sockmap.c:sock_hash_free",
+        "kernel/events/core.c:_free_event",
+        "kernel/events/callchain.c:put_callchain_buffers",
+        "mm/shmem.c:shmem_destroy_inode",
+        "mm/slab_common.c:slab_deactivate_memcg_cache_rcu_sched",
+        "mm/slab_common.c:memcg_update_all_caches",
+        "mm/list_lru.c:memcg_update_all_list_lrus",
+        "mm/slub.c:discard_slab",
+        "fs/file_table.c:__fput",
+        "fs/file_table.c:get_empty_filp",
+        "fs/fcntl.c:fasync_remove_entry",
+        "fs/dcache.c:__d_move",
+        "fs/dcache.c:dentry_free",
+        "fs/dcache.c:dentry_free",
+        "fs/dcache.c:release_dentry_name_snapshot",
+        "fs/namespace.c:cleanup_mnt",
+        "fs/fs-writeback.c:inode_switch_wbs",
+        "fs/block_dev.c:bdev_destroy_inode",
+        "fs/eventpoll.c:ep_remove",
+        "fs/proc/inode.c:proc_destroy_inode",
+        "fs/ext4/mballoc.c:ext4_mb_new_blocks",
+        "fs/ext4/mballoc.c:ext4_mb_discard_lg_preallocations",
+        "fs/ext4/mballoc.c:ext4_discard_preallocations",
+        "fs/ext4/mballoc.c:ext4_mb_discard_group_preallocations",
+        "fs/ext4/super.c:ext4_destroy_inode",
+        "fs/squashfs/super.c:squashfs_destroy_inode",
+        "fs/hugetlbfs/inode.c:hugetlbfs_destroy_inode",
+        "fs/fat/inode.c:fat_destroy_inode",
+        "fs/fat/inode.c:fat_put_super",
+        "fs/ecryptfs/dentry.c:ecryptfs_d_release",
+        "ipc/util.c:ipc_rcu_putref",
+        "ipc/msg.c:newque",
+        "ipc/sem.c:newary",
+        "ipc/shm.c:newseg",
+        "ipc/shm.c:newseg",
+        "ipc/mqueue.c:mqueue_destroy_inode",
+        "security/keys/user_defined.c:user_revoke",
+        "security/keys/user_defined.c:user_update",
+        "security/keys/trusted.c:trusted_update",
+        "security/keys/encrypted-keys/encrypted.c:encrypted_update",
+        "security/selinux/avc.c:avc_node_replace",
+        "security/selinux/avc.c:avc_node_delete",
+        "security/selinux/hooks.c:selinux_inode_free_security",
+        "security/smack/smack_lsm.c:smack_inode_free_security",
+        "security/apparmor/label.c:aa_label_kref",
+        "block/blk-core.c:__blk_put_request",
+        "block/blk-core.c:get_request",
+        "block/blk-core.c:get_request",
+        "block/blk-sysfs.c:__blk_release_queue",
+        "block/blk-ioc.c:ioc_destroy_icq",
+        "block/blk-mq.c:blk_mq_free_request",
+        "block/blk-stat.c:blk_stat_free_callback",
+        "block/partition-generic.c:__delete_partition",
+        "block/blk-cgroup.c:__blkg_release_rcu",
+        "block/blk-cgroup.c:blkg_destroy",
+        "block/blk-cgroup.c:blkg_create",
+        "block/blk-throttle.c:tg_dispatch_one_bio",
+        "block/blk-throttle.c:throtl_pop_queued",
+        "block/cfq-iosched.c:cfq_init_queue",
+        "block/cfq-iosched.c:cfq_put_queue",
+        "lib/percpu-refcount.c:__percpu_ref_switch_mode",
+        "lib/rhashtable.c:rht_deferred_worker",
+        "drivers/acpi/apei/ghes.c:ghes_estatus_cache_add",
+        "drivers/dax/super.c:dax_destroy_inode",
+        "drivers/scsi/scsi_error.c:scsi_eh_scmd_add",
+        "drivers/net/tun.c:__tun_set_ebpf",
+        "drivers/md/dm-stats.c:dm_stats_message",
+        "net/core/sock.c:sk_destruct",
+        "net/core/dst.c:dst_release",
+        "net/core/neighbour.c:neigh_table_clear",
+        "net/core/neighbour.c:__neigh_create",
+        "net/core/filter.c:sk_filter_release",
+        "net/core/sock_reuseport.c:reuseport_detach_sock",
+        "net/core/sock_reuseport.c:reuseport_add_sock",
+        "net/core/xdp.c:xdp_rxq_info_unreg",
+        "net/core/net-sysfs.c:rx_queue_release",
+        "net/core/net-sysfs.c:store_rps_dev_flow_table_cnt",
+        "net/core/page_pool.c:page_pool_destroy",
+        "net/netlink/af_netlink.c:netlink_release",
+        "net/ipv4/inetpeer.c:inet_putpeer",
+        "net/ipv4/ip_sockglue.c:ip_ra_control",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_reset_cipher",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_ctx_destroy",
+        "net/ipv4/tcp_fastopen.c:tcp_fastopen_destroy_cipher",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:inetdev_event",
+        "net/ipv4/devinet.c:devinet_ioctl",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:inet_rtm_newaddr",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_insert_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/devinet.c:__inet_del_ifa",
+        "net/ipv4/fib_semantics.c:free_fib_info",
+        "net/ipv4/fib_trie.c:fib_free_table",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_table_flush_external",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_trie_unmerge",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_delete",
+        "net/ipv4/fib_trie.c:fib_table_insert",
+        "net/ipv4/fib_trie.c:fib_insert_alias",
+        "net/ipv4/fib_trie.c:resize",
+        "net/ipv4/fib_trie.c:tnode_free",
+        "net/ipv4/inet_fragment.c:inet_frag_destroy",
+        "net/ipv4/ipmr.c:mroute_clean_tables",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_mfc_add",
+        "net/ipv4/ipmr.c:ipmr_cache_unresolved",
+        "net/ipv4/ipmr.c:ipmr_destroy_unres",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_putdef",
+        "net/ipv4/cipso_ipv4.c:cipso_v4_doi_remove",
+        "net/ipv6/anycast.c:__ipv6_dev_ac_inc",
+        "net/ipv6/addrconf.c:inet6_rtm_newaddr",
+        "net/ipv6/addrconf.c:addrconf_notify",
+        "net/ipv6/addrconf.c:addrconf_prefix_rcv",
+        "net/ipv6/addrconf.c:cleanup_prefix_route",
+        "net/ipv6/addrconf.c:ipv6_add_addr",
+        "net/ipv6/route.c:ip6_route_multipath_add",
+        "net/ipv6/route.c:ip6_route_multipath_add",
+        "net/ipv6/route.c:ip6_route_multipath_add",
+        "net/ipv6/route.c:ip6_route_multipath_add",
+        "net/ipv6/route.c:rt6_do_redirect",
+        "net/ipv6/route.c:ip6_route_del",
+        "net/ipv6/route.c:__ip6_del_rt",
+        "net/ipv6/route.c:ip6_route_add",
+        "net/ipv6/route.c:ip6_route_info_create",
+        "net/ipv6/route.c:ip6_pol_route",
+        "net/ipv6/route.c:ip6_rt_cache_alloc",
+        "net/ipv6/route.c:ip6_create_rt_rcu",
+        "net/ipv6/route.c:rt6_route_rcv",
+        "net/ipv6/route.c:ip6_dst_destroy",
+        "net/ipv6/ip6_fib.c:fib6_del",
+        "net/ipv6/ip6_fib.c:fib6_add",
+        "net/ipv6/ip6_fib.c:fib6_add",
+        "net/ipv6/ip6_fib.c:fib6_add",
+        "net/ipv6/ndisc.c:ndisc_router_discovery",
+        "net/ipv6/ndisc.c:ndisc_router_discovery",
+        "net/ipv6/ip6mr.c:ip6_mroute_setsockopt",
+        "net/ipv6/ip6mr.c:mroute_clean_tables",
+        "net/ipv6/ip6mr.c:ip6mr_mfc_add",
+        "net/ipv6/ip6mr.c:ip6mr_mfc_add",
+        "net/ipv6/ip6mr.c:ip6mr_cache_unresolved",
+        "net/ipv6/ip6mr.c:ip6mr_destroy_unres",
+        "net/ipv6/calipso.c:calipso_doi_remove",
+        "net/ipv6/addrconf_core.c:in6_dev_finish_destroy",
+        "net/8021q/vlan_core.c:vlan_vid_del",
+        "net/netlabel/netlabel_domainhash.c:netlbl_domhsh_remove_entry",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_netdev_handler",
+        "net/netlabel/netlabel_unlabeled.c:netlbl_unlhsh_remove",
+        "lib/radix-tree.c:radix_tree_free_nodes",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node",
+        "lib/radix-tree.c:delete_node"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579920128,
+      "name": "call_rcu_sched",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 25
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "call_rcu_sched",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579785952,
+      "name": "call_rcu_sched",
+      "external": false,
+      "loc": "include/linux/rcupdate.h:932",
+      "file": "kernel/sched/topology.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "kernel/sched/topology.c:sched_put_rd",
+        "kernel/sched/topology.c:rq_attach_root"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ➖</summary>
+
+```c
+void call_rcu_sched(struct callback_head * head, rcu_callback_t func)
+```
+</details>
+</li>
+</ul>

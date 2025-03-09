@@ -1,0 +1,1141 @@
+# Function: <code>ext4_es_unregister_shrinker</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071581844784,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1172",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_fill_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581844784,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582039664,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1172",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582039664,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582129760,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1172",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582129760,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071581928880,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1172",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581928880,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582079200,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1173",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582079200,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582267104,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1172",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582267104,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582364416,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1294",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582364416,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582532400,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1294",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582532400,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582633728,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582633728,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582942784,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582942784,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 79
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583017200,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1675",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583017200,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 79
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583042736,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1673",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583042736,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 79
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583380160,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1673",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583380160,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 79
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583893616,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1673",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:__ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583893616,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 85
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584518672,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1672",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:__ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584518672,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 85
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584747216,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1713",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:__ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584747216,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 85
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584980000,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1752",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:__ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584980000,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 107
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336494284656,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336494284656,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3227718856,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3227718856,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 68
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055287997792,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055287997792,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 116
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936273729618,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936273729618,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 92
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582602464,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582602464,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582539632,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582539632,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582592576,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582592576,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+void ext4_es_unregister_shrinker(struct ext4_sb_info * sbi)
+```
+
+```json
+{
+  "name": "ext4_es_unregister_shrinker",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582674608,
+      "name": "ext4_es_unregister_shrinker",
+      "external": true,
+      "loc": "fs/ext4/extents_status.c:1654",
+      "file": "fs/ext4/extents_status.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/ext4/super.c:ext4_fill_super",
+        "fs/ext4/super.c:ext4_put_super",
+        "fs/ext4/super.c:ext4_put_super"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582674608,
+      "name": "ext4_es_unregister_shrinker",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 76
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ✅
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

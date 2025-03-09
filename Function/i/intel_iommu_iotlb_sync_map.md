@@ -1,0 +1,334 @@
+# Function: <code>intel_iommu_iotlb_sync_map</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586793504,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:5532",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586793504,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 456
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587350352,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:5560",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587350352,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 208
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588662640,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:4882",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588662640,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 234
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071590139952,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:4757",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071590139952,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 243
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071590453936,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:4715",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071590453936,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 243
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+int intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+
+```json
+{
+  "name": "intel_iommu_iotlb_sync_map",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071590797264,
+      "name": "intel_iommu_iotlb_sync_map",
+      "external": false,
+      "loc": "drivers/iommu/intel/iommu.c:4614",
+      "file": "drivers/iommu/intel/iommu.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071590797264,
+      "name": "intel_iommu_iotlb_sync_map",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 243
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ➕</summary>
+
+```c
+void intel_iommu_iotlb_sync_map(struct iommu_domain * domain, long unsigned int iova, size_t size)
+```
+</details>
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Changed between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ❓</summary>
+<ul>
+<li>
+<b>Return type changed. </b>
+<code>void</code> ➡️ <code>int</code>
+</li>
+</ul>
+</details>
+</li>
+</ul>

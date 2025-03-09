@@ -1,0 +1,1002 @@
+# Function: <code>pnp_device_attach</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583792768,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:59",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583792768,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584118944,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:59",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584118944,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584266944,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:59",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584266944,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584345008,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:59",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584345008,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584750656,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584750656,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584979136,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584979136,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585083872,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585083872,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585288384,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585288384,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585426352,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585426352,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071586143501,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586142368,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071586262349,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586261216,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071586136333,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586135200,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071586637133,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586635968,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071587903309,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587902032,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 95
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071589253485,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071589252016,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 95
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071589550317,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071589548848,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 95
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071589858845,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071589857376,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 95
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336497708328,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336497708328,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 104
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585188880,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585188880,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585141088,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585141088,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585376752,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585376752,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+
+```json
+{
+  "name": "pnp_device_attach",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585484096,
+      "name": "pnp_device_attach",
+      "external": true,
+      "loc": "drivers/pnp/driver.c:60",
+      "file": "drivers/pnp/driver.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/pnp/driver.c:pnp_device_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585484096,
+      "name": "pnp_device_attach",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 89
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➖</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➖</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➖</summary>
+
+```c
+int pnp_device_attach(struct pnp_dev * pnp_dev)
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

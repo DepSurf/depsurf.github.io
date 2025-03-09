@@ -1,0 +1,171 @@
+# Struct: <code>fman_cfg</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+struct fman_cfg {
+    u8 disp_limit_tsh;
+    u8 prs_disp_tsh;
+    u8 plcr_disp_tsh;
+    u8 kg_disp_tsh;
+    u8 bmi_disp_tsh;
+    u8 qmi_enq_disp_tsh;
+    u8 qmi_deq_disp_tsh;
+    u8 fm_ctl1_disp_tsh;
+    u8 fm_ctl2_disp_tsh;
+    int dma_cache_override;
+    enum fman_dma_aid_mode dma_aid_mode;
+    u32 dma_axi_dbg_num_of_beats;
+    u32 dma_cam_num_of_entries;
+    u32 dma_watchdog;
+    u8 dma_comm_qtsh_asrt_emer;
+    u32 dma_write_buf_tsh_asrt_emer;
+    u32 dma_read_buf_tsh_asrt_emer;
+    u8 dma_comm_qtsh_clr_emer;
+    u32 dma_write_buf_tsh_clr_emer;
+    u32 dma_read_buf_tsh_clr_emer;
+    u32 dma_sos_emergency;
+    int dma_dbg_cnt_mode;
+    int catastrophic_err;
+    int dma_err;
+    u32 exceptions;
+    u16 clk_freq;
+    u32 cam_base_addr;
+    u32 fifo_base_addr;
+    u32 total_fifo_size;
+    u32 total_num_of_tasks;
+    u32 qmi_def_tnums_thresh;
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+struct fman_cfg {
+    u8 disp_limit_tsh;
+    u8 prs_disp_tsh;
+    u8 plcr_disp_tsh;
+    u8 kg_disp_tsh;
+    u8 bmi_disp_tsh;
+    u8 qmi_enq_disp_tsh;
+    u8 qmi_deq_disp_tsh;
+    u8 fm_ctl1_disp_tsh;
+    u8 fm_ctl2_disp_tsh;
+    int dma_cache_override;
+    enum fman_dma_aid_mode dma_aid_mode;
+    u32 dma_axi_dbg_num_of_beats;
+    u32 dma_cam_num_of_entries;
+    u32 dma_watchdog;
+    u8 dma_comm_qtsh_asrt_emer;
+    u32 dma_write_buf_tsh_asrt_emer;
+    u32 dma_read_buf_tsh_asrt_emer;
+    u8 dma_comm_qtsh_clr_emer;
+    u32 dma_write_buf_tsh_clr_emer;
+    u32 dma_read_buf_tsh_clr_emer;
+    u32 dma_sos_emergency;
+    int dma_dbg_cnt_mode;
+    int catastrophic_err;
+    int dma_err;
+    u32 exceptions;
+    u16 clk_freq;
+    u32 cam_base_addr;
+    u32 fifo_base_addr;
+    u32 total_fifo_size;
+    u32 total_num_of_tasks;
+    u32 qmi_def_tnums_thresh;
+}
+```
+</details>
+</li>
+</ul>

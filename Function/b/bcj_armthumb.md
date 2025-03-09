@@ -1,0 +1,762 @@
+# Function: <code>bcj_armthumb</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583109013,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583403269,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583528645,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583566486,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583811788,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 0,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 0,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584289999,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584424799,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+size_t bcj_armthumb(struct xz_dec_bcj * s, uint8_t * buf, size_t size)
+```
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584985952,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584985952,
+      "name": "bcj_armthumb",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 253
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+size_t bcj_armthumb(struct xz_dec_bcj * s, uint8_t * buf, size_t size)
+```
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585107888,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585107888,
+      "name": "bcj_armthumb",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 256
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584988982,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071585429531,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586569027,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071587803251,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071588074624,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071588409140,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446603336496308216,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 3229644544,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 13835058055290617232,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446743936275364330,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584393535,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584328735,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584376447,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "bcj_armthumb",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584482479,
+      "name": "bcj_armthumb",
+      "external": false,
+      "loc": "lib/xz/xz_dec_bcj.c:288",
+      "file": "lib/xz/xz_dec_bcj.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "lib/xz/xz_dec_bcj.c:bcj_apply"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ➕</summary>
+
+```c
+size_t bcj_armthumb(struct xz_dec_bcj * s, uint8_t * buf, size_t size)
+```
+</details>
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ➖</summary>
+
+```c
+size_t bcj_armthumb(struct xz_dec_bcj * s, uint8_t * buf, size_t size)
+```
+</details>
+</li>
+</ul>

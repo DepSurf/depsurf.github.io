@@ -1,0 +1,426 @@
+# Function: <code>kdb_bt_cpu</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580560336,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580560336,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 111
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580548384,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580548384,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 111
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580551552,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580551552,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 111
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580721312,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580721312,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 111
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071580933344,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071580933344,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 134
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581226272,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581226272,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 134
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581320624,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581320624,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 134
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+
+```json
+{
+  "name": "kdb_bt_cpu",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071581426928,
+      "name": "kdb_bt_cpu",
+      "external": false,
+      "loc": "kernel/debug/kdb/kdb_bt.c:107",
+      "file": "kernel/debug/kdb/kdb_bt.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt",
+        "kernel/debug/kdb/kdb_bt.c:kdb_bt"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071581426928,
+      "name": "kdb_bt_cpu",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 134
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ➕</summary>
+
+```c
+void kdb_bt_cpu(long unsigned int cpu)
+```
+</details>
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>

@@ -1,0 +1,356 @@
+# Function: <code>mhp_online_type_from_str</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071587046133,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587046416,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 100
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071587615776,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587616096,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 91
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071588955984,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588956336,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 99
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071590471600,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071590471984,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 99
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071590794528,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071590794912,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 99
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+
+```json
+{
+  "name": "mhp_online_type_from_str",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071591138208,
+      "name": "mhp_online_type_from_str",
+      "external": true,
+      "loc": "drivers/base/memory.c:38",
+      "file": "drivers/base/memory.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/base/memory.c:auto_online_blocks_store",
+        "drivers/base/memory.c:state_store"
+      ],
+      "caller_func": [
+        "mm/memory_hotplug.c:setup_memhp_default_state"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071591138592,
+      "name": "mhp_online_type_from_str",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 99
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ➕</summary>
+
+```c
+int mhp_online_type_from_str(const char * str)
+```
+</details>
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>

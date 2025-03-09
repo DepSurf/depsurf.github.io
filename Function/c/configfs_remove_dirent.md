@@ -1,0 +1,710 @@
+# Function: <code>configfs_remove_dirent</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582556944,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582556944,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 148
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582862896,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582862896,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 164
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582935888,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582935888,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 164
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582962912,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:252",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582962912,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 164
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071583298528,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:260",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583298528,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 164
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071583806768,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:260",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583806768,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 176
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071584427648,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:260",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584427648,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 176
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071584656384,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:260",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584656384,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 176
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071584889072,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:260",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584889072,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 176
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446603336494196616,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336494196616,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 268
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3227632704,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_remove_dir",
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3227632704,
+      "name": "configfs_remove_dirent",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 228
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055287890048,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055287890048,
+      "name": "configfs_remove_dirent",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 304
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936273657838,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936273657838,
+      "name": "configfs_remove_dirent",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 228
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582525680,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582525680,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 148
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582462848,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582462848,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 148
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582516160,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582516160,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 148
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "configfs_remove_dirent",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582596768,
+      "name": "configfs_remove_dirent",
+      "external": false,
+      "loc": "fs/configfs/dir.c:254",
+      "file": "fs/configfs/dir.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "fs/configfs/dir.c:configfs_create_link",
+        "fs/configfs/dir.c:configfs_create_dir"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582596768,
+      "name": "configfs_remove_dirent.isra.0",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 146
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➕</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➕</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➕</summary>
+
+```c
+void configfs_remove_dirent(struct dentry * dentry)
+```
+</details>
+</li>
+</ul>

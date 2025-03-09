@@ -1,0 +1,971 @@
+# Function: <code>save_ioapic_entries</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579197472,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:639",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579197472,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 139
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579198080,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:639",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579198080,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 138
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579209776,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:638",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579209776,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 138
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579207296,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:638",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579207296,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 150
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579224976,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:639",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579224976,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 150
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579239056,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:640",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579239056,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 150
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579262976,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:640",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579262976,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 150
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579275136,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579275136,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579277568,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579277568,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579308592,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:628",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579308592,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 199
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579313728,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:615",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579313728,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 199
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579316496,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:615",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579316496,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 199
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579366448,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:615",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579366448,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 345
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579430800,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:616",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579430800,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 354
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579514880,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:616",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579514880,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 354
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579527344,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:617",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579527344,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 368
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579556112,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:617",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579556112,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 368
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579276272,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579276272,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579211600,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579211600,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579277472,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579277472,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+int save_ioapic_entries()
+```
+
+```json
+{
+  "name": "save_ioapic_entries",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579283360,
+      "name": "save_ioapic_entries",
+      "external": true,
+      "loc": "arch/x86/kernel/apic/io_apic.c:641",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/kernel/apic/apic.c:enable_IR_x2apic"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579283360,
+      "name": "save_ioapic_entries",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 154
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➖</summary>
+
+```c
+int save_ioapic_entries()
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➖</summary>
+
+```c
+int save_ioapic_entries()
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➖</summary>
+
+```c
+int save_ioapic_entries()
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➖</summary>
+
+```c
+int save_ioapic_entries()
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

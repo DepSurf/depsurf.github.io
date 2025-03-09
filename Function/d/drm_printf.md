@@ -1,0 +1,198 @@
+# Function: <code>drm_printf</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+void drm_printf(struct drm_printer * p, const char * f, void (anon))
+```
+
+```json
+{
+  "name": "drm_printf",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071592137232,
+      "name": "drm_printf",
+      "external": true,
+      "loc": "drivers/gpu/drm/drm_print.c:220",
+      "file": "drivers/gpu/drm/drm_print.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_connector_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_plane_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_atomic.c:drm_atomic_crtc_print_state",
+        "drivers/gpu/drm/drm_client.c:drm_client_debugfs_internal_clients",
+        "drivers/gpu/drm/drm_file.c:drm_show_fdinfo",
+        "drivers/gpu/drm/drm_file.c:drm_show_fdinfo",
+        "drivers/gpu/drm/drm_file.c:drm_show_fdinfo",
+        "drivers/gpu/drm/drm_file.c:print_size",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_framebuffer.c:drm_framebuffer_print_info",
+        "drivers/gpu/drm/drm_gem.c:drm_gem_print_info",
+        "drivers/gpu/drm/drm_gem.c:drm_gem_print_info",
+        "drivers/gpu/drm/drm_gem.c:drm_gem_print_info",
+        "drivers/gpu/drm/drm_gem.c:drm_gem_print_info",
+        "drivers/gpu/drm/drm_gem.c:drm_gem_print_info",
+        "drivers/gpu/drm/drm_mm.c:drm_mm_print",
+        "drivers/gpu/drm/drm_mm.c:drm_mm_print",
+        "drivers/gpu/drm/drm_mm.c:drm_mm_print",
+        "drivers/gpu/drm/drm_mm.c:drm_mm_print",
+        "drivers/gpu/drm/drm_mode_config.c:drm_mode_config_cleanup",
+        "drivers/gpu/drm/drm_print.c:drm_print_regset32",
+        "drivers/gpu/drm/drm_print.c:drm_print_bits",
+        "drivers/gpu/drm/drm_print.c:drm_print_bits",
+        "drivers/gpu/drm/drm_debugfs.c:bridges_show",
+        "drivers/gpu/drm/drm_debugfs.c:bridges_show",
+        "drivers/gpu/drm/drm_debugfs.c:bridges_show"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071592137232,
+      "name": "drm_printf",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 153
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ➕</summary>
+
+```c
+void drm_printf(struct drm_printer * p, const char * f, void (anon))
+```
+</details>
+</li>
+</ul>

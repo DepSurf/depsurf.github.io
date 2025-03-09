@@ -1,0 +1,451 @@
+# Function: <code>sd_zbc_check_zones</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586338906,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:319",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586582202,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:342",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586729594,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336499638816,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336499638816,
+      "name": "sd_zbc_check_zones",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 992
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3232093400,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3232093400,
+      "name": "sd_zbc_check_zones",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 1028
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055292960192,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055292960192,
+      "name": "sd_zbc_check_zones",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 1160
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936276821502,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936276821502,
+      "name": "sd_zbc_check_zones",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 1012
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586420074,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586296330,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586684154,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "sd_zbc_check_zones",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586790186,
+      "name": "sd_zbc_check_zones",
+      "external": false,
+      "loc": "drivers/scsi/sd_zbc.c:338",
+      "file": "drivers/scsi/sd_zbc.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/scsi/sd_zbc.c:sd_zbc_read_zones"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➕</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➕</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➕</summary>
+
+```c
+int sd_zbc_check_zones(struct scsi_disk * sdkp, u32 * zblocks)
+```
+</details>
+</li>
+</ul>

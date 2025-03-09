@@ -1,0 +1,153 @@
+# Struct: <code>zynqmp_eemi_ops</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+struct zynqmp_eemi_ops {
+    int (*)(u32 *) get_api_version;
+    int (*)(u32 *, u32 *) get_chipid;
+    int (*)(const u64, const u32, const u32) fpga_load;
+    int (*)(u32 *) fpga_get_status;
+    int (*)(struct zynqmp_pm_query_data, u32 *) query_data;
+    int (*)(u32) clock_enable;
+    int (*)(u32) clock_disable;
+    int (*)(u32, u32 *) clock_getstate;
+    int (*)(u32, u32) clock_setdivider;
+    int (*)(u32, u32 *) clock_getdivider;
+    int (*)(u32, u64) clock_setrate;
+    int (*)(u32, u64 *) clock_getrate;
+    int (*)(u32, u32) clock_setparent;
+    int (*)(u32, u32 *) clock_getparent;
+    int (*)(u32, u32, u32, u32, u32 *) ioctl;
+    int (*)(const enum zynqmp_pm_reset, const enum zynqmp_pm_reset_action) reset_assert;
+    int (*)(const enum zynqmp_pm_reset, u32 *) reset_get_status;
+    int (*)() init_finalize;
+    int (*)(u32) set_suspend_mode;
+    int (*)(const u32, const u32, const u32, const enum zynqmp_pm_request_ack) request_node;
+    int (*)(const u32) release_node;
+    int (*)(const u32, const u32, const u32, const enum zynqmp_pm_request_ack) set_requirement;
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+struct zynqmp_eemi_ops {
+    int (*)(u32 *) get_api_version;
+    int (*)(u32 *, u32 *) get_chipid;
+    int (*)(const u64, const u32, const u32) fpga_load;
+    int (*)(u32 *) fpga_get_status;
+    int (*)(struct zynqmp_pm_query_data, u32 *) query_data;
+    int (*)(u32) clock_enable;
+    int (*)(u32) clock_disable;
+    int (*)(u32, u32 *) clock_getstate;
+    int (*)(u32, u32) clock_setdivider;
+    int (*)(u32, u32 *) clock_getdivider;
+    int (*)(u32, u64) clock_setrate;
+    int (*)(u32, u64 *) clock_getrate;
+    int (*)(u32, u32) clock_setparent;
+    int (*)(u32, u32 *) clock_getparent;
+    int (*)(u32, u32, u32, u32, u32 *) ioctl;
+    int (*)(const enum zynqmp_pm_reset, const enum zynqmp_pm_reset_action) reset_assert;
+    int (*)(const enum zynqmp_pm_reset, u32 *) reset_get_status;
+    int (*)() init_finalize;
+    int (*)(u32) set_suspend_mode;
+    int (*)(const u32, const u32, const u32, const enum zynqmp_pm_request_ack) request_node;
+    int (*)(const u32) release_node;
+    int (*)(const u32, const u32, const u32, const enum zynqmp_pm_request_ack) set_requirement;
+}
+```
+</details>
+</li>
+</ul>

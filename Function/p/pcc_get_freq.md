@@ -1,0 +1,900 @@
+# Function: <code>pcc_get_freq</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585893968,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585893968,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 580
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586293920,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586293920,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 552
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586498192,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586498192,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 552
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586622752,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586622752,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 552
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587105792,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587105792,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 552
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587405008,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587405008,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 554
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587584928,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587584928,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 560
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587861040,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587861040,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 561
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588065824,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588065824,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 561
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588926864,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588926864,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 563
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588938176,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588938176,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 563
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588826608,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588826608,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 563
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071589520720,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071589520720,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 583
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071591008944,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071591008944,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 610
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071592718000,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071592718000,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 622
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071593154992,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:141",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071593154992,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 621
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071593908800,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:141",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071593908800,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 621
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071587464912,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071587464912,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 561
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588021968,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588021968,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 561
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+
+```json
+{
+  "name": "pcc_get_freq",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071588136448,
+      "name": "pcc_get_freq",
+      "external": false,
+      "loc": "drivers/cpufreq/pcc-cpufreq.c:140",
+      "file": "drivers/cpufreq/pcc-cpufreq.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588136448,
+      "name": "pcc_get_freq",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 553
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➖</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➖</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➖</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➖</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>Removed between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ➖</summary>
+
+```c
+unsigned int pcc_get_freq(unsigned int cpu)
+```
+</details>
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

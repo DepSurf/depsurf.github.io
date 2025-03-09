@@ -1,0 +1,303 @@
+# Function: <code>SyS_rt_sigpending</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+
+```json
+{
+  "name": "SyS_rt_sigpending",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579438528,
+      "name": "SyS_rt_sigpending",
+      "external": true,
+      "loc": "kernel/signal.c:2625",
+      "file": "kernel/signal.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "kernel/signal.c:compat_SyS_rt_sigpending",
+        "kernel/signal.c:SyS_sigpending"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579438528,
+      "name": "SyS_rt_sigpending",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 201
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+
+```json
+{
+  "name": "SyS_rt_sigpending",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579455084,
+      "name": "SyS_rt_sigpending",
+      "external": true,
+      "loc": "kernel/signal.c:2625",
+      "file": "kernel/signal.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "kernel/signal.c:SyS_sigpending",
+        "kernel/signal.c:compat_SyS_rt_sigpending"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579450992,
+      "name": "SyS_rt_sigpending",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 222
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+
+```json
+{
+  "name": "SyS_rt_sigpending",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579475564,
+      "name": "SyS_rt_sigpending",
+      "external": true,
+      "loc": "kernel/signal.c:2638",
+      "file": "kernel/signal.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "kernel/signal.c:SyS_sigpending",
+        "kernel/signal.c:compat_SyS_rt_sigpending"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579471440,
+      "name": "SyS_rt_sigpending",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 222
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+
+```json
+{
+  "name": "SyS_rt_sigpending",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579463628,
+      "name": "SyS_rt_sigpending",
+      "external": true,
+      "loc": "kernel/signal.c:2659",
+      "file": "kernel/signal.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "kernel/signal.c:compat_SyS_sigpending",
+        "kernel/signal.c:SyS_sigpending",
+        "kernel/signal.c:compat_SyS_rt_sigpending"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579459840,
+      "name": "SyS_rt_sigpending",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 224
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+
+```json
+{
+  "name": "SyS_rt_sigpending",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071579491501,
+      "name": "SyS_rt_sigpending",
+      "external": true,
+      "loc": "kernel/signal.c:2643",
+      "file": "kernel/signal.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "kernel/signal.c:SyS_sigpending"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579488064,
+      "name": "SyS_rt_sigpending",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 144
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ➖</summary>
+
+```c
+long int SyS_rt_sigpending(long int uset, long int sigsetsize)
+```
+</details>
+</li>
+</ul>

@@ -1,0 +1,24 @@
+include: ["_*"]
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
+relative_links: 
+  enable: false
+  exclude: ["*"]
+
+readme_index:
+  enable: false
+
+# optional_front_matter:
+#   enabled: false
+
+incremental: true
+
+plugins:
+  - jekyll-sitemap
+
+# For local testing
+# exclude: ["Function/[a-z]", "Struct/[a-z]"]

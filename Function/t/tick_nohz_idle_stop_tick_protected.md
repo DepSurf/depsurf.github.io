@@ -1,0 +1,498 @@
+# Function: <code>tick_nohz_idle_stop_tick_protected</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Static Duplication",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579017425,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:131",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    },
+    {
+      "addr": 18446744071579648969,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:131",
+      "file": "kernel/sched/idle.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "kernel/sched/idle.c:do_idle"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Static Duplication",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579019041,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:131",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    },
+    {
+      "addr": 18446744071579686537,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:131",
+      "file": "kernel/sched/idle.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "kernel/sched/idle.c:do_idle"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Static Duplication",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579026737,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    },
+    {
+      "addr": 18446744071579720309,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "kernel/sched/idle.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "kernel/sched/idle.c:do_idle"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579028897,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579037185,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:143",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579040785,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:143",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579043617,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:144",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579063773,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:144",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+void tick_nohz_idle_stop_tick_protected()
+```
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579087136,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:144",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579087136,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 29
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+void tick_nohz_idle_stop_tick_protected()
+```
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071579121744,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:144",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071579121744,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 37
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579029249,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579028833,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "tick_nohz_idle_stop_tick_protected",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071579032401,
+      "name": "tick_nohz_idle_stop_tick_protected",
+      "external": false,
+      "loc": "include/linux/tick.h:138",
+      "file": "arch/x86/xen/smp_pv.c",
+      "inline": "declared, inlined",
+      "caller_inline": [
+        "arch/x86/xen/smp_pv.c:xen_pv_play_dead"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ➕</summary>
+
+```c
+void tick_nohz_idle_stop_tick_protected()
+```
+</details>
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ➖</summary>
+
+```c
+void tick_nohz_idle_stop_tick_protected()
+```
+</details>
+</li>
+</ul>

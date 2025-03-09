@@ -1,0 +1,153 @@
+# Function: <code>drm_mode_destroy</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void drm_mode_destroy(struct drm_device * dev, struct drm_display_mode * mode)
+```
+
+```json
+{
+  "name": "drm_mode_destroy",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071592107247,
+      "name": "drm_mode_destroy",
+      "external": true,
+      "loc": "drivers/gpu/drm/drm_modes.c:93",
+      "file": "drivers/gpu/drm/drm_modes.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpu/drm/drm_modes.c:drm_connector_list_update",
+        "drivers/gpu/drm/drm_modes.c:drm_mode_prune_invalid",
+        "drivers/gpu/drm/drm_modes.c:drm_analog_tv_mode"
+      ],
+      "caller_func": [
+        "drivers/gpu/drm/drm_client_modeset.c:drm_client_modeset_release",
+        "drivers/gpu/drm/drm_connector.c:drm_connector_cleanup",
+        "drivers/gpu/drm/drm_connector.c:drm_connector_cleanup",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_crtc.c:drm_mode_setcrtc",
+        "drivers/gpu/drm/drm_edid.c:drm_gtf2_mode",
+        "drivers/gpu/drm/drm_crtc_helper.c:drm_crtc_helper_set_mode",
+        "drivers/gpu/drm/drm_crtc_helper.c:drm_crtc_helper_set_mode"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071592104336,
+      "name": "drm_mode_destroy",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 41
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ➕</summary>
+
+```c
+void drm_mode_destroy(struct drm_device * dev, struct drm_display_mode * mode)
+```
+</details>
+</li>
+</ul>

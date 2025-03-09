@@ -1,0 +1,379 @@
+# Function: <code>__receive_fd</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+int __receive_fd(int fd, struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582275776,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1088",
+      "file": "fs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/pid.c:pidfd_getfd",
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582275776,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 224
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582301280,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1098",
+      "file": "fs/file.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "kernel/pid.c:pidfd_getfd",
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582301280,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 162
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071582616771,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1158",
+      "file": "fs/file.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "fs/file.c:receive_fd",
+        "fs/file.c:receive_fd"
+      ],
+      "caller_func": [
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582620320,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 162
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071583151395,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1160",
+      "file": "fs/file.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "fs/file.c:receive_fd",
+        "fs/file.c:receive_fd"
+      ],
+      "caller_func": [
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583155424,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 256
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071583725059,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1170",
+      "file": "fs/file.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "fs/file.c:receive_fd",
+        "fs/file.c:receive_fd"
+      ],
+      "caller_func": [
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583729168,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 181
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+
+```json
+{
+  "name": "__receive_fd",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071583942115,
+      "name": "__receive_fd",
+      "external": true,
+      "loc": "fs/file.c:1185",
+      "file": "fs/file.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "fs/file.c:receive_fd",
+        "fs/file.c:receive_fd"
+      ],
+      "caller_func": [
+        "net/core/scm.c:scm_detach_fds",
+        "net/compat.c:scm_detach_fds_compat"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583946240,
+      "name": "__receive_fd",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 181
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ➕</summary>
+
+```c
+int __receive_fd(int fd, struct file * file, int * ufd, unsigned int o_flags)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Changed between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ❓</summary>
+<ul>
+<li>
+<b>Param removed. </b>
+<code>int fd</code>
+</li>
+<li>
+<b>Param reordered. </b>
+<code>fd, file, ufd, o_flags</code> ➡️ <code>file, ufd, o_flags</code>
+</li>
+</ul>
+</details>
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+<details>
+<summary>Removed between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ➖</summary>
+
+```c
+int __receive_fd(struct file * file, int * ufd, unsigned int o_flags)
+```
+</details>
+</li>
+</ul>

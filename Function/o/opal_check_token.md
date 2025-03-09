@@ -1,0 +1,162 @@
+# Function: <code>opal_check_token</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+int64_t opal_check_token(int64_t a0, int64_t a1, int64_t a2, int64_t a3, int64_t a4, int64_t a5, int64_t a6, int64_t a7)
+```
+
+```json
+{
+  "name": "opal_check_token",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055282964720,
+      "name": "opal_check_token",
+      "external": true,
+      "loc": "arch/powerpc/platforms/powernv/opal-call.c:208",
+      "file": "arch/powerpc/platforms/powernv/opal-call.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/powerpc/sysdev/xive/native.c:xive_native_has_queue_state_support",
+        "arch/powerpc/sysdev/xive/native.c:xive_native_has_queue_state_support",
+        "arch/powerpc/platforms/powernv/setup.c:pnv_probe",
+        "arch/powerpc/platforms/powernv/opal.c:opal_shutdown",
+        "arch/powerpc/platforms/powernv/opal.c:opal_init",
+        "arch/powerpc/platforms/powernv/opal-rtc.c:__machine_initcall_powernv_opal_time_init",
+        "arch/powerpc/platforms/powernv/opal-rtc.c:__machine_initcall_powernv_opal_time_init",
+        "arch/powerpc/platforms/powernv/opal-rtc.c:opal_get_boot_time",
+        "arch/powerpc/platforms/powernv/opal-elog.c:opal_elog_init",
+        "arch/powerpc/platforms/powernv/opal-elog.c:opal_elog_init",
+        "arch/powerpc/platforms/powernv/opal-dump.c:opal_platform_dump_init",
+        "arch/powerpc/platforms/powernv/opal-dump.c:opal_platform_dump_init",
+        "arch/powerpc/platforms/powernv/smp.c:pnv_smp_init",
+        "arch/powerpc/platforms/powernv/smp.c:pnv_cause_nmi_ipi",
+        "arch/powerpc/platforms/powernv/smp.c:pnv_cause_nmi_ipi",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_set_tunnel_bar",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_set_tunnel_bar",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_set_power_state",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_get_power_state",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_get_presence_state",
+        "arch/powerpc/platforms/powernv/pci.c:pnv_pci_get_device_tree",
+        "arch/powerpc/platforms/powernv/eeh-powernv.c:pnv_eeh_err_inject",
+        "arch/powerpc/platforms/powernv/opal-secvar.c:opal_secvar_probe",
+        "arch/powerpc/platforms/powernv/opal-secvar.c:opal_secvar_probe",
+        "arch/powerpc/platforms/powernv/opal-secvar.c:opal_secvar_probe"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055282964720,
+      "name": "opal_check_token",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 56
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➕</summary>
+
+```c
+int64_t opal_check_token(int64_t a0, int64_t a1, int64_t a2, int64_t a3, int64_t a4, int64_t a5, int64_t a6, int64_t a7)
+```
+</details>
+</li>
+</ul>

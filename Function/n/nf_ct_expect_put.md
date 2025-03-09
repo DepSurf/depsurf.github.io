@@ -1,0 +1,152 @@
+# Function: <code>nf_ct_expect_put</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+In <code>5.4.0-26-generic-arm64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Selective Inline ❓</summary>
+
+```c
+void nf_ct_expect_put(struct nf_conntrack_expect * exp)
+```
+
+```json
+{
+  "name": "nf_ct_expect_put",
+  "collision_type": "Unique Global",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071588946256,
+      "name": "nf_ct_expect_put",
+      "external": true,
+      "loc": "net/netfilter/nf_conntrack_expect.c:362",
+      "file": "net/netfilter/nf_conntrack_expect.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [],
+      "caller_func": [
+        "net/netfilter/nf_conntrack_expect.c:nf_ct_expect_iterate_net",
+        "net/netfilter/nf_conntrack_expect.c:nf_ct_expect_iterate_destroy",
+        "net/netfilter/nf_conntrack_expect.c:nf_ct_expectation_timed_out",
+        "net/netfilter/nf_conntrack_expect.c:nf_ct_unlink_expect_report",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_create_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_del_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_del_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_del_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_get_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_get_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_get_expect",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_exp_ct_dump_table",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_exp_dump_table",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_exp_done",
+        "net/netfilter/nf_conntrack_netlink.c:ctnetlink_glue_attach_expect"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588946256,
+      "name": "nf_ct_expect_put",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 46
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ➕</summary>
+
+```c
+void nf_ct_expect_put(struct nf_conntrack_expect * exp)
+```
+</details>
+</li>
+</ul>

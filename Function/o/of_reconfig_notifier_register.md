@@ -1,0 +1,288 @@
+# Function: <code>of_reconfig_notifier_register</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+
+```json
+{
+  "name": "of_reconfig_notifier_register",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336501625600,
+      "name": "of_reconfig_notifier_register",
+      "external": true,
+      "loc": "drivers/of/dynamic.c:54",
+      "file": "drivers/of/dynamic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/spi/spi.c:spi_init",
+        "drivers/i2c/i2c-core-base.c:i2c_init",
+        "drivers/of/platform.c:of_platform_register_reconfig_notifier"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336501625600,
+      "name": "of_reconfig_notifier_register",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 52
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+
+```json
+{
+  "name": "of_reconfig_notifier_register",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3234147260,
+      "name": "of_reconfig_notifier_register",
+      "external": true,
+      "loc": "drivers/of/dynamic.c:54",
+      "file": "drivers/of/dynamic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/spi/spi.c:spi_init",
+        "drivers/i2c/i2c-core-base.c:i2c_init",
+        "drivers/of/platform.c:of_platform_register_reconfig_notifier"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3234147260,
+      "name": "of_reconfig_notifier_register",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 40
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+
+```json
+{
+  "name": "of_reconfig_notifier_register",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055295055616,
+      "name": "of_reconfig_notifier_register",
+      "external": true,
+      "loc": "drivers/of/dynamic.c:54",
+      "file": "drivers/of/dynamic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "arch/powerpc/platforms/pseries/setup.c:pSeries_setup_arch",
+        "arch/powerpc/platforms/pseries/iommu.c:iommu_init_early_pSeries",
+        "arch/powerpc/platforms/pseries/hotplug-cpu.c:__machine_initcall_pseries_pseries_cpu_hotplug_init",
+        "arch/powerpc/platforms/pseries/hotplug-memory.c:__machine_initcall_pseries_pseries_memory_hotplug_init",
+        "drivers/spi/spi.c:spi_init",
+        "drivers/i2c/i2c-core-base.c:i2c_init",
+        "drivers/of/platform.c:of_platform_register_reconfig_notifier"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055295055616,
+      "name": "of_reconfig_notifier_register",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 64
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+
+```json
+{
+  "name": "of_reconfig_notifier_register",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936278086990,
+      "name": "of_reconfig_notifier_register",
+      "external": true,
+      "loc": "drivers/of/dynamic.c:54",
+      "file": "drivers/of/dynamic.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "drivers/spi/spi.c:spi_init",
+        "drivers/i2c/i2c-core-base.c:i2c_init",
+        "drivers/of/platform.c:of_platform_register_reconfig_notifier"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936278086990,
+      "name": "of_reconfig_notifier_register",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 50
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ➕</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ➕</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+</details>
+</li>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ➕</summary>
+
+```c
+int of_reconfig_notifier_register(struct notifier_block * nb)
+```
+</details>
+</li>
+</ul>

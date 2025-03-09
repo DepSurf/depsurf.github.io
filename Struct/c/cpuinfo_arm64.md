@@ -1,0 +1,177 @@
+# Struct: <code>cpuinfo_arm64</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.13.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.15.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.18.0-10-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.0.0-13-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.3.0-18-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.8.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.11.0-16-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.13.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.15.0-25-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.19.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.2.0-20-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.5.0-9-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>6.8.0-31-generic-amd64</code>: Absent ❓
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+struct cpuinfo_arm64 {
+    struct cpu cpu;
+    struct kobject kobj;
+    u32 reg_ctr;
+    u32 reg_cntfrq;
+    u32 reg_dczid;
+    u32 reg_midr;
+    u32 reg_revidr;
+    u64 reg_id_aa64dfr0;
+    u64 reg_id_aa64dfr1;
+    u64 reg_id_aa64isar0;
+    u64 reg_id_aa64isar1;
+    u64 reg_id_aa64mmfr0;
+    u64 reg_id_aa64mmfr1;
+    u64 reg_id_aa64mmfr2;
+    u64 reg_id_aa64pfr0;
+    u64 reg_id_aa64pfr1;
+    u64 reg_id_aa64zfr0;
+    u32 reg_id_dfr0;
+    u32 reg_id_isar0;
+    u32 reg_id_isar1;
+    u32 reg_id_isar2;
+    u32 reg_id_isar3;
+    u32 reg_id_isar4;
+    u32 reg_id_isar5;
+    u32 reg_id_mmfr0;
+    u32 reg_id_mmfr1;
+    u32 reg_id_mmfr2;
+    u32 reg_id_mmfr3;
+    u32 reg_id_pfr0;
+    u32 reg_id_pfr1;
+    u32 reg_mvfr0;
+    u32 reg_mvfr1;
+    u32 reg_mvfr2;
+    u64 reg_zcr;
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+In <code>5.4.0-1009-aws-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1010-azure-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓
+</li>
+</ul>
+
+## Differences
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ➕</summary>
+
+```c
+struct cpuinfo_arm64 {
+    struct cpu cpu;
+    struct kobject kobj;
+    u32 reg_ctr;
+    u32 reg_cntfrq;
+    u32 reg_dczid;
+    u32 reg_midr;
+    u32 reg_revidr;
+    u64 reg_id_aa64dfr0;
+    u64 reg_id_aa64dfr1;
+    u64 reg_id_aa64isar0;
+    u64 reg_id_aa64isar1;
+    u64 reg_id_aa64mmfr0;
+    u64 reg_id_aa64mmfr1;
+    u64 reg_id_aa64mmfr2;
+    u64 reg_id_aa64pfr0;
+    u64 reg_id_aa64pfr1;
+    u64 reg_id_aa64zfr0;
+    u32 reg_id_dfr0;
+    u32 reg_id_isar0;
+    u32 reg_id_isar1;
+    u32 reg_id_isar2;
+    u32 reg_id_isar3;
+    u32 reg_id_isar4;
+    u32 reg_id_isar5;
+    u32 reg_id_mmfr0;
+    u32 reg_id_mmfr1;
+    u32 reg_id_mmfr2;
+    u32 reg_id_mmfr3;
+    u32 reg_id_pfr0;
+    u32 reg_id_pfr1;
+    u32 reg_mvfr0;
+    u32 reg_mvfr1;
+    u32 reg_mvfr2;
+    u64 reg_zcr;
+}
+```
+</details>
+</li>
+</ul>

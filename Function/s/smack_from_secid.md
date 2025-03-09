@@ -1,0 +1,1249 @@
+# Function: <code>smack_from_secid</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>In <code>4.4.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582395616,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:601",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_kernel_act_as",
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_task_kill",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582395616,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 70
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.8.0-22-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582617264,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:601",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_task_kill",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582617264,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 67
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.10.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582710416,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:596",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_task_kill",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582710416,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 67
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582803520,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:596",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_task_kill",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582803520,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 56
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071582959920,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:596",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_task_kill",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071582959920,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 56
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583160160,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:596",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583160160,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 56
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583276368,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:596",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583276368,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 56
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583463696,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583463696,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583569648,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583569648,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583921904,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583921904,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584042032,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:614",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584042032,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 84
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584070560,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:614",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584070560,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 84
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071584442384,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:616",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071584442384,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 84
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585074192,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:613",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585074192,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 101
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071585796192,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:610",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071585796192,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 101
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586027936,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:610",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586027936,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 101
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071586276416,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:610",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_getpeersec_dgram",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_from_netlbl",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071586276416,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 101
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446603336495345848,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446603336495345848,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 104
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-armhf</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 3228721732,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 3228721732,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 88
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-ppc64el</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 13835058055289353024,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 13835058055289353024,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 104
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-24-generic-riscv64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446743936274556364,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446743936274556364,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 84
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583538384,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583538384,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583475440,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583475440,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583522160,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583522160,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 53
+    }
+  ]
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: ✅</summary>
+
+```c
+struct smack_known * smack_from_secid(const u32 secid)
+```
+
+```json
+{
+  "name": "smack_from_secid",
+  "collision_type": "Unique Global",
+  "inline_type": "No",
+  "funcs": [
+    {
+      "addr": 18446744071583619008,
+      "name": "smack_from_secid",
+      "external": true,
+      "loc": "security/smack/smack_access.c:592",
+      "file": "security/smack/smack_access.c",
+      "inline": "seen, unknown",
+      "caller_inline": [],
+      "caller_func": [
+        "security/smack/smack_lsm.c:smack_secid_to_secctx",
+        "security/smack/smack_lsm.c:smack_inet_csk_clone",
+        "security/smack/smack_lsm.c:smack_inet_conn_request",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_socket_sock_rcv_skb",
+        "security/smack/smack_lsm.c:smack_kernel_act_as"
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071583619008,
+      "name": "smack_from_secid",
+      "section": ".text",
+      "bind": "STB_GLOBAL",
+      "size": 90
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+No changes between <code>4.4.0-21-generic-amd64</code> and <code>4.8.0-22-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.8.0-22-generic-amd64</code> and <code>4.10.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.10.0-19-generic-amd64</code> and <code>4.13.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.13.0-16-generic-amd64</code> and <code>4.15.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.15.0-20-generic-amd64</code> and <code>4.18.0-10-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>4.18.0-10-generic-amd64</code> and <code>5.0.0-13-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.0.0-13-generic-amd64</code> and <code>5.3.0-18-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.3.0-18-generic-amd64</code> and <code>5.4.0-26-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.8.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.8.0-25-generic-amd64</code> and <code>5.11.0-16-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.11.0-16-generic-amd64</code> and <code>5.13.0-19-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.13.0-19-generic-amd64</code> and <code>5.15.0-25-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.15.0-25-generic-amd64</code> and <code>5.19.0-21-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.19.0-21-generic-amd64</code> and <code>6.2.0-20-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.2.0-20-generic-amd64</code> and <code>6.5.0-9-generic-amd64</code> ✅
+</li>
+<li>
+No changes between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ✅
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-arm64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-armhf</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-generic-ppc64el</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-24-generic-riscv64</code> ✅
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-aws-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1010-azure-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-1009-gcp-amd64</code> ✅
+</li>
+<li>
+No changes between <code>5.4.0-26-generic-amd64</code> and <code>5.4.0-26-lowlatency-amd64</code> ✅
+</li>
+</ul>

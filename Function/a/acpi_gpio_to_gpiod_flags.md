@@ -1,0 +1,595 @@
+# Function: <code>acpi_gpio_to_gpiod_flags</code>
+
+## Status
+<b>Regular</b>
+<ul>
+<li>
+In <code>4.4.0-21-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.8.0-22-generic-amd64</code>: Absent ❓
+</li>
+<li>
+In <code>4.10.0-19-generic-amd64</code>: Absent ❓
+</li>
+<li>
+<details>
+<summary>In <code>4.13.0-16-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583695393,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:440",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.15.0-20-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071583952010,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:379",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>4.18.0-10-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584146186,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:418",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.0.0-13-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584231970,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:445",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.3.0-18-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584421748,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:453",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584558388,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.8.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071585234009,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:530",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.11.0-16-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071585390453,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:209",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.13.0-19-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071585274549,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:209",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.15.0-25-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071585730805,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:260",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.19.0-21-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071586907685,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:256",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.2.0-20-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071588061525,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:287",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.5.0-9-generic-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071588336117,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:289",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>6.8.0-31-generic-amd64</code>: Selective Inline ❓</summary>
+
+```c
+enum gpiod_flags acpi_gpio_to_gpiod_flags(const struct acpi_resource_gpio * agpio, int polarity)
+```
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Selective",
+  "funcs": [
+    {
+      "addr": 18446744071588630261,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:265",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod",
+        "drivers/gpio/gpiolib-acpi.c:acpi_request_own_gpiod"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": [
+    {
+      "addr": 18446744071588627968,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "section": ".text",
+      "bind": "STB_LOCAL",
+      "size": 104
+    }
+  ]
+}
+```
+</details>
+</li>
+</ul>
+<b>Arch</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-26-generic-arm64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446603336496753488,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+In <code>5.4.0-26-generic-armhf</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-26-generic-ppc64el</code>: Absent ❓
+</li>
+<li>
+In <code>5.4.0-24-generic-riscv64</code>: Absent ❓
+</li>
+</ul>
+<b>Flavor</b>
+<ul>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-aws-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584515316,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1010-azure-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584453444,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-1009-gcp-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584510052,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+<li>
+<details>
+<summary>In <code>5.4.0-26-lowlatency-amd64</code>: Absent ❓</summary>
+
+```json
+{
+  "name": "acpi_gpio_to_gpiod_flags",
+  "collision_type": "Unique Static",
+  "inline_type": "Full",
+  "funcs": [
+    {
+      "addr": 18446744071584616324,
+      "name": "acpi_gpio_to_gpiod_flags",
+      "external": false,
+      "loc": "drivers/gpio/gpiolib-acpi.c:523",
+      "file": "drivers/gpio/gpiolib-acpi.c",
+      "inline": "not declared, inlined",
+      "caller_inline": [
+        "drivers/gpio/gpiolib-acpi.c:acpi_gpio_adr_space_handler"
+      ],
+      "caller_func": []
+    }
+  ],
+  "symbols": []
+}
+```
+</details>
+</li>
+</ul>
+
+## Differences
+<b>Regular</b>
+<ul>
+<li>
+<details>
+<summary>Added between <code>6.5.0-9-generic-amd64</code> and <code>6.8.0-31-generic-amd64</code> ➕</summary>
+
+```c
+enum gpiod_flags acpi_gpio_to_gpiod_flags(const struct acpi_resource_gpio * agpio, int polarity)
+```
+</details>
+</li>
+</ul>
